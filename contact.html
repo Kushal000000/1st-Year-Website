@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="style.css">
+    <script src="validate.js"></script>
+    <style>
+		body{
+			margin: 0;
+		}
+
+		.navbar {
+			overflow: hidden;
+			background-color: white;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		.navbar a {
+			float: left;
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+			
+		}
+
+		.navbar a:hover {
+			background-color: white;
+			color: #2b00c5;
+
+		}
+
+		.navbar a.active {
+			background-color: white;
+			color: #2b00c5;
+
+		}
+	</style>
+</head>
+<body>
+
+	<!--- Navbar --->
+	<div class="navbar">
+		<a href="index.html">Home</a>
+		<a href="product.html">Product</a>
+		<a href="blog.html">Blog</a>
+		<a href="research.html">Research</a>
+		<a class="active" href="contact.html">Contact Us</a>
+	</div>
+
+	<!--- Contact Us --->
+	<div class="contact">
+		<div class="wrapper container">
+	      <h2>Contact us</h2>
+	      <div id="error_message"> 
+	      </div>
+	      <form action="" id="myform">
+	        <div class="input_field">
+	            <input type="text" placeholder="Name" id="name">
+	        </div>
+	        <div class="input_field">
+	            <input type="text" placeholder="Subject" id="subject">
+	        </div>
+	        <div class="input_field">
+	            <input type="text" placeholder="Phone" id="phone">
+	        </div>
+	        <div class="input_field">
+	            <input type="text" placeholder="Email" id="email">
+	        </div>
+	        <div class="input_field">
+	            <textarea placeholder="Message" id="message"></textarea>
+	        </div>
+	        <div class="btn">
+	            <input type="submit">
+	        </div>
+	      </form>
+	    </div>
+	</div>
+
+
+ <!-- Footer -->
+ <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Author Names</a>
+          <a href="https://bookstore.com">Premium Books</a>
+          <a href="#">Limited Edition</a>
+          <a href="#">Credits</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="#">My Account</a>
+          <a href="#">Order History</a>
+          <a href="#">Wish List</a>
+          <a href="#">Returns</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <p>Gongabu, Ganeshsthan Marg, NEPAL<p>
+          </div>
+          <div>
+            <p>bookstore69@gmail.com<p>
+          </div>
+          <div>
+            <p>9825497680<p>
+          </div>
+          <div>
+            <p>Kathmandu City, NEPAL<p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

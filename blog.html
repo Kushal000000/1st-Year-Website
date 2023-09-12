@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<style>
+		body{
+			margin: 0;
+			background-color: #fefefe;
+		}
+
+		.navbar {
+			overflow: hidden;
+			background-color: white;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		.navbar a {
+			float: left;
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.navbar a:hover {
+			background-color: white;
+			color: #2b00c5;
+		}
+
+		.navbar a.active {
+			background-color: white;
+			color: #2b00c5;
+			
+		}
+
+		.blog{
+			position: absolute;
+			padding: 18px;
+			top: 75PX;
+			z-index: -1;
+
+		}
+		.paragraph{
+
+			font-size: 21px;
+		}
+		.footer{
+			position: relative;
+			top:800px;
+
+		}
+		h2{
+			font-size: 25px;
+			padding-bottom:18px;
+		}
+	</style>
+	<title>Blog</title>
+	<script>
+		function displayDate() {
+			document.getElementById("showDate").innerHTML = Date();
+		}
+	</script>
+</head>
+<body>
+
+	<!--- Navbar --->
+	<div class="navbar">
+		<a href="index.html">Home</a>
+		<a href="product.html">Product</a>
+		<a class="active" href="blog.html">Blog</a>
+		<a href="research.html">Research</a>
+		<a href="contact.html">Contact Us</a>
+	</div>
+
+
+	<!--- Date --->
+	<div class="dateSize">
+		<button class="button1" type="button" onclick="displayDate()">Date</button>
+		<p id="showDate"></p>
+	</div>
+
+
+	<!--- Blog --->
+	<div class="blog">
+		<h2>How technology affect our lives</h2>
+		<p class="paragraph">Technology has an impact on how people interact, learn, and think. It contributes to society and influences how individuals interact on a daily basis. In today's world, technology plays a critical role. It has both beneficial and bad impacts on the planet, as well as a direct impact on people's lives. We live in a time where technical advancements are common. Cell phones and the internet are two examples. However, there is a drawback to technological advancements.</p><br>
+		<p class="paragraph">One aspect of technology that has had a great impact on society is how it affects learning. Learning has become more interactive and collaborative, allowing people to better engage with the topics they are learning and having difficulty with. With the invention of the internet, we now have access to information at all hours of the day and night, and you can find practically anything online. It also makes it easy for individuals to complete their assignments. Students can take quizzes and examinations more conveniently, and professors may organize more productive online sessions. It also pushes the classroom's boundaries, promoting self-paced learning. Learning may be accessed via YouTube and social media. This is more beneficial to students' learning than sitting in lectures and reading textbooks. These technological advancements made learning more fun and convenient.</p><br>
+		<p class="paragraph">Another area where technology has had an influence on society is communication, or how people interact and connect with one another throughout the world. Many new forms of digital communication have emerged as a result of technological advancements. For example, there are emails, social networking, the ability to facetime someone on the other side of the planet, and video conferencing, which allows you to hold virtual meetings. Finally, technical improvements in the health profession have aided in keeping people safe and healthy. There are several innovative phone applications that allow consumers to keep track of their weight, calorie consumption, heart rate, and other health metrics at any time of day. There is more accessibility to treatment, a change in healthcare that includes benefits for the aged, and hospitals that use modern technology in their operating rooms.</p><br>
+		<p class="paragraph">However, research demonstrate that mobile communication has a negative impact on people's ability to be sociable and make face-to-face contact. Mobile technology has the potential to reduce human interactions and relationships. There is less personal time, and you may find that you do not have enough time for yourself since you are always in communication with others. It can also be a source of distraction from your studies. There is also a loss of privacy because anyone, at any moment, may locate you wherever. Finally, all of these factors have an influence on how people behave today. Our way of life would be simpler without technological breakthroughs. Today's human behavior is shaped by technological factors.</p>
+	</div>
+
+
+ <!-- Footer -->
+ <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Author Names</a>
+          <a href="https://bookstore.com">Premium Books</a>
+          <a href="#">Limited Edition</a>
+          <a href="#">Credits</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="#">My Account</a>
+          <a href="#">Order History</a>
+          <a href="#">Wish List</a>
+          <a href="#">Returns</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <p>Gongabu, Ganeshsthan Marg, NEPAL<p>
+          </div>
+          <div>
+            <p>bookstore69@gmail.com<p>
+          </div>
+          <div>
+            <p>9825497680<p>
+          </div>
+          <div>
+            <p>Kathmandu City, NEPAL<p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
